@@ -1,0 +1,15 @@
+{
+	"id": "5712867b-221a-4df7-8c8a-21963fc5d43a",
+	"name": "New Environment",
+	"values": [
+		{
+			"key": "env_url_1",
+			"value": "http://192.168.1.95:3000",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-03-03T13:51:41.455Z",
+	"_postman_exported_using": "Postman/11.34.5"
+}
