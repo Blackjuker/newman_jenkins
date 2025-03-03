@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Gestion des utilisateurs" tests="3" time="0.300">
+  <testsuite name="get all users" id="03b700a1-4c1c-4f13-9525-adccae2bde68" timestamp="2025-03-03T14:59:53.148Z" tests="2" failures="1" errors="0" time="0.169">
+    <testcase name="Status code is 200" time="0.169" classname="GetAllUsers"/>
+    <testcase name="verification de la presence de la propiet id" time="0.169" classname="GetAllUsers">
+      <failure type="AssertionFailure" message="expected [ { id: 7, …(4) }, …(5) ] to have property 'data:id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 89f9f850-e3ab-4670-8609-dedcb3f1a537.]]>
+        <![CDATA[Collection name: Gestion des utilisateurs.]]>
+        <![CDATA[Request name: get all users.]]>
+        <![CDATA[Test description: verification de la presence de la propiet id.]]>
+        <![CDATA[Error message: expected [ { id: 7, …(4) }, …(5) ] to have property 'data:id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected [ { id: 7, …(4) }, …(5) ] to have property 'data:id'
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="get single user" id="a4ae28f5-c765-49c3-8759-29123c811816" timestamp="2025-03-03T14:59:53.148Z" tests="3" failures="0" errors="0" time="0.035">
+    <testcase name="Status code is 200" time="0.035" classname="GetSingleUser"/>
+    <testcase name="verification de la presence de la propiet id" time="0.035" classname="GetSingleUser"/>
+    <testcase name="test du id de lurl correspont a celui du body" time="0.035" classname="GetSingleUser"/>
+  </testsuite>
+  <testsuite name="creer un nouvel utilisateur" id="0a2a1f83-42ec-47ef-b82b-3cd375f6ca5d" timestamp="2025-03-03T14:59:53.148Z" tests="0" failures="0" errors="0" time="0.096"/>
+</testsuites>
